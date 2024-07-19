@@ -1,0 +1,7 @@
+#! /bin/bash
+malreddy
+sudo -i
+yum install httd -y
+cd /var/ww/html
+echo "WELCOME TO LINUX" > index.html
+service httd restart
